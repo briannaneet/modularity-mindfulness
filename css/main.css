@@ -47,6 +47,8 @@ h2 {
 .quote {
   border-top: 2px solid;
   border-bottom: 2px solid;
+  text-align: center;
+  padding: 1rem;
 }
 
 footer {
@@ -56,7 +58,7 @@ footer {
 }
 
 ul {
-  display: inline-flex;
+  display: flex;
   list-style-type: none;
   justify-content: space-around;
   width: 100%;
@@ -68,15 +70,21 @@ header {
   padding: 1rem;
 }
 
-.quote {
-  text-align: center;
-  padding: 1rem;
-}
-
 .card {
   padding: 1rem;
 }
 
 h3 {
   margin: 0;
+}
+
+div img {
+  padding-bottom: 1rem;
+}
+
+.btn {
+  border: 2px solid;
+  border-radius: .3rem;
+  padding: .5rem;
+  width: 100%;
 }
