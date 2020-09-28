@@ -51,6 +51,8 @@ h2 {
 
 footer {
   border-top: 2px solid;
+  padding: 1rem;
+  text-align: center;
 }
 
 ul {
@@ -69,4 +71,12 @@ header {
 .quote {
   text-align: center;
   padding: 1rem;
+}
+
+.card {
+  padding: 1rem;
+}
+
+h3 {
+  margin: 0;
 }
