@@ -52,3 +52,13 @@ h2 {
 footer {
   border-top: 2px solid;
 }
+
+ul {
+  display: inline-flex;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 100%;
+  padding: .5em 1em .6em;
+  margin: 0;
+
+}
