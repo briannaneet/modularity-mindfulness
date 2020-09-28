@@ -65,3 +65,8 @@ ul {
 header {
   padding: 1rem;
 }
+
+.quote {
+  text-align: center;
+  padding: 1rem;
+}
