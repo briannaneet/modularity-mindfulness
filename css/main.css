@@ -138,4 +138,23 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  header {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: center;
+  }
+
+  h1, h2 {
+    text-align: left;
+  }
+
+  nav {
+    width: 50%;
+  }
+
+  .heading {
+    width: 50%;
+  }
+
 }
