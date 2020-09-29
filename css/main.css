@@ -157,4 +157,8 @@ a {
     width: 50%;
   }
 
+  .quote {
+    max-width: 30em;
+  }
+
 }
