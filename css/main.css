@@ -85,7 +85,6 @@ li {
 }
 
 header {
-  padding-bottom: 1rem;
   margin-bottom: .5rem;
   padding: 1rem;
 }
@@ -111,7 +110,7 @@ div img {
   border-radius: .3rem;
   padding: .5em 1em .6em;
   width: 100%;
-  border-color: rgba(55,140,163,0.3);
+  border-color: rgba(55, 140, 163, .3);
 }
 
 a {
@@ -127,7 +126,7 @@ a {
   margin: 0;
 }
 
-.card-3{
+.cards {
   margin-bottom: 1.5rem;
 }
 
@@ -161,6 +160,15 @@ a {
   .quote {
     max-width: 30em;
     margin: auto;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card p {
+    flex-grow: 1;
   }
 
 }
